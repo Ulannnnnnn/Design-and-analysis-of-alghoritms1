@@ -44,13 +44,6 @@ Performance was measured on random arrays.
 
 ---
 
-## 📈 Graphs
-
-### Execution time
-![Execution time](docs/performance.png)
-
-### Theory vs Practice
-![Theory vs Practice](docs/complexity.png)
 
 ---
 
