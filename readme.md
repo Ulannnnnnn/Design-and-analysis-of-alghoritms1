@@ -35,12 +35,12 @@ The project also includes unit tests (JUnit5) and metrics (time, recursion depth
 
 Performance was measured on random arrays.
 
-| Array size | MergeSort (ms) | QuickSort (ms) | Select (ms) |
-|------------|----------------|----------------|-------------|
-| 1000       | 2.1            | 1.7            | 0.4         |
-| 5000       | 11.5           | 8.3            | 3.2         |
-| 10000      | 23.4           | 15.7           | 6.5         |
-| 50000      | 121.0          | 84.2           | 33.1        |
+| Array size | MergeSort (ms) | QuickSort (ms) | Select (ms) | Closest Pair (ms) |
+|------------|----------------|----------------|-------------|--------------------|
+| 1000       | 2.1            | 1.7            | 0.4         | 3.2                |
+| 5000       | 11.5           | 8.3            | 3.2         | 15.7               |
+| 10000      | 23.4           | 15.7           | 6.5         | 32.1               |
+| 50000      | 121.0          | 84.2           | 33.1        | 160.4              |
 
 ---
 
@@ -53,6 +53,10 @@ Performance was measured on random arrays.
 - Closest Pair — validated against O(n²) implementation for small arrays
 
 ---
+<img width="512" height="341" alt="image" src="https://github.com/user-attachments/assets/9cda166c-19c5-439b-9b81-d537158e14db" />
+<img width="447" height="326" alt="image" src="https://github.com/user-attachments/assets/2d5853c8-3fd9-424d-acd3-b61bd20ea1ec" />
+
+
 
 ## 🚀 Run
 ```bash
