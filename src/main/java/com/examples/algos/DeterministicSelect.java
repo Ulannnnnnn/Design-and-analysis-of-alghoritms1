@@ -11,7 +11,7 @@ public class DeterministicSelect {
             return arr[left];
         }
 
-        // считаем количество сравнений
+        
         m.comparisons++;
 
         int pivot = medianOfMedians(arr, left, right, m);
@@ -27,7 +27,7 @@ public class DeterministicSelect {
     }
 
     private static int medianOfMedians(int[] arr, int left, int right, Metrics m) {
-        // простая версия: берём середину
+        
         return arr[(left + right) / 2];
     }
 
