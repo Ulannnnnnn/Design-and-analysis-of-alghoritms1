@@ -13,7 +13,7 @@ public class QuickSort {
         while (left < right) {
             int pivotIndex = partition(arr, left, right);
 
-            // Рекурсивно вызываем меньшую часть
+            
             if (pivotIndex - left < right - pivotIndex) {
                 quickSort(arr, left, pivotIndex - 1);
                 left = pivotIndex + 1;
